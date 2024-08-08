@@ -20,7 +20,7 @@ const PORT = config.PORT;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: config.FRONTEND,
     credentials: true
 }));
 app.use(fileupload({
