@@ -1,0 +1,92 @@
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: auto;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.imagenes {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imagenes img {
+  width: calc(50% - 10px); /* Two images per row */
+  height: 300px;
+  max-height: auto;
+  object-fit: cover;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+.imagenes img:first-child {
+  width: 100%; /* The first image spans the full width */
+  margin: 20;
+}
+
+.info {
+  flex: 1;
+  padding: 30px;
+}
+
+.card-info-elements {
+  margin-bottom: 1px;
+}
+
+.card-info-elements h1 {
+  font-size: 1.5em;
+  margin: 0;
+  line-height: 1;
+}
+
+.card-info-elements p {
+  margin: 4px 0;
+}
+
+.card-info-elements p span {
+  margin-left: 5px;
+  color: #8488fffa;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.btn-card-container-details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.btn-card-container-details p span {
+  margin-left: 5px;
+}
+
+.btn-card-wa-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  padding: 8px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+
+.contact {
+  border-top: 1px solid #ddd;
+  padding: 16px;
+}
+
+.card-info-elements-contact h3 {
+  margin: 0;
+}
+
+.card-info-elements-contact p {
+  margin: 4px 0;
+}

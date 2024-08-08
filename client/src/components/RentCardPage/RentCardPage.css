@@ -1,0 +1,25 @@
+.rent-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 0;
+    margin-bottom: 2rem ;
+}
+
+.rent-card h2 {
+    margin: 0;
+    margin-left: 11rem;
+    margin-bottom: 20px;
+}
+
+.rent-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+

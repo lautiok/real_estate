@@ -1,0 +1,53 @@
+.sucursales-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+  margin-left: 15rem;
+  margin-right: 15rem;
+
+}
+
+.sucursales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.maps img  {
+    width: 600px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.info-sobre-sucursales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #8488fffa;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    z-index: 999;
+    bottom: 4rem;
+}
+
+.informacion-sucursal h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+
+.informacion-sucursal p {
+  margin: 0;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  
+}

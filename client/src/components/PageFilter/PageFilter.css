@@ -1,0 +1,11 @@
+.page-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}

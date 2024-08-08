@@ -1,0 +1,37 @@
+.benefits-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  gap: 2rem;
+  position: relative;
+}
+
+.benefits-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 28rem;
+    height: 8rem;
+    color: white;
+    background-color: #8489FF;
+    border-radius: 1rem;
+}
+
+.benefits-page h1 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.benefits-page p {
+  font-size: 0.8rem;
+  margin: 0;
+  text-align: center;
+}
+

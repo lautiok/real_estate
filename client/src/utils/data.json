@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "direction": "Av Echeverria 2785",
+        "location": "Merlo",
+        "Provincia": "Buenos Aires",
+        "descripcion": "Casa en merlo ubicado en una zona exelente cerca del centro en el pleno corazon de merlo",
+        "metrosCuadrados": 200,
+        "ambientes": 3,
+        "baños": 2,
+        "habitaciones": 2,
+        "contacto": "5412345678",
+        "image": "https://static.tokkobroker.com/pictures/28799124206427076948864840554467578968933597191451533767250828975498663949375.jpg"
+    },
+    {
+        "id": 2,
+        "direction": "Av La Plata 3231",
+        "location": "Merlo",
+        "Provincia": "Buenos Aires",
+        "descripcion": "Casa en merlo ubicado en una zona exelente cerca del centro de merlo",
+        "metrosCuadrados": 200,
+        "ambientes": 3,
+        "baños": 2,
+        "habitaciones": 2,
+        "contacto": "5412345678",
+        "image": "https://static1.sosiva451.com/11632921/b0884c3b-2e07-4c82-833a-7b95f68d0645_u_large.jpg"
+    },
+    {
+        "id": 3,
+        "direction": "Av La Plata 3233",
+        "location": "Ituzaingo",
+        "Provincia": "Buenos Aires",
+        "descripcion": "Casa en ituzaingo ubicado en una zona exelente cerca del centro de merlo",
+        "metrosCuadrados": 200,
+        "ambientes": 3,
+        "baños": 2,
+        "habitaciones": 2,
+        "contacto": "5412345678",
+        "image": "https://static1.sosiva451.com/09316751/6943f511-ef61-4a44-addd-762c096fab6f_u_large.jpg"
+    },
+    {
+        "id": 4,
+        "direction": "Av La Plata 3233",
+        "location": "Ituzaingo",
+        "Provincia": "Buenos Aires",
+        "descripcion": "Casa en ituzaingo ubicado en una zona exelente cerca del centro de merlo",
+        "metrosCuadrados": 200,
+        "ambientes": 3,
+        "baños": 2,
+        "habitaciones": 2,
+        "contacto": "5412345678",
+        "image": "https://static1.sosiva451.com/91265551/ebd41556-dcd9-4214-b0a3-9fc07a693b27_u_large.jpg"
+    }
+    ]

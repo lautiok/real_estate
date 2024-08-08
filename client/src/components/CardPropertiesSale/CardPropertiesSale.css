@@ -1,0 +1,39 @@
+.card-properties-sale {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 0;
+    margin-bottom: 2rem ;
+}
+
+.card-properties-sale h2 {
+    margin: 0;
+    margin-left: 10rem;
+    margin-bottom: 20px;
+}
+
+.card-properties {
+    margin: 0 8rem;
+}
+
+.slick-next, .slick-prev {
+    background: transparent !important; /* Ensure background is transparent */
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 1.8rem !important; /* Change the size of the arrows */
+    color: #8489FF !important; /* Ensure arrow color is red */
+}
+
+@media screen and (max-width: 1728px) {
+    .card-properties {
+        margin: 0rem;
+    }
+    .slick-next, .slick-prev {
+        display: none !important;
+    }
+
+    .card-properties-sale h2 {
+        margin-left: 2rem;
+    }
+}

@@ -1,0 +1,105 @@
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 23rem;
+    height: 35rem;
+    margin: 0 auto;
+    margin-bottom: 2rem ;
+}
+
+.card-img {
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card-info-title {
+    padding: 10px;
+}
+
+.card-info-title h3 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    line-height: 1.2; 
+}
+
+.card-info-title p {
+    margin: 0;
+}
+
+.card-info-details {
+    padding: 10px;
+}
+
+.card-info-details p {
+    margin: 0;
+    font-size: 0.8rem;
+    margin-right: 8rem;
+}
+
+.card-info-details-elements {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.card-info-details-elements p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: rgb(110, 110, 110);
+}
+
+.btn-container-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+}
+
+.btn-container-card .price-card {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0.5em;
+    text-align: center;
+}
+
+.btn-container-card .price-card span {
+    color: #8488fffa;
+    font-size: 0.8rem;
+}
+
+.btn-container-card .btn-card-container-details {
+    display: flex;
+    align-items: center;
+}
+
+.btn-container-card .btn-card-wa {
+    text-decoration: none;
+    color: #000000;
+    font-size: 2rem;
+}
+
+.btn-container-card .btn-card {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 10px;
+    background-color: #8488fffa;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,90 @@
+ 
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    background-color: #fff;
+    margin: 2rem  10rem;
+    border-radius: 20px;
+    z-index: 1000;
+    position: relative;
+  }
+   header .logo-header h1 a {
+    font-family: pacifico, cursive; 
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  header .nav-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header .nav-header ul li  {
+    margin: 0 5px;
+  }
+  
+  header .nav-header ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: poppins, sans-serif;
+    font-size: 1rem;
+  }
+  
+  header .singin-up ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header .singin-up ul li  {
+    margin: 0 5px;
+  }
+  
+  header .singin-up ul li .login {
+    text-decoration: none;
+    color: #000;
+    font-family: poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  header .singin-up ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #8489FF;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    header {
+      margin: 1rem  1rem;
+    }
+  }
+  
+  @media screen and (max-width: 430px) {
+    header {
+      background-color: #F0F0F0;
+      justify-content: space-between;
+    }
+  
+    header .nav-header {
+      display: none;
+    }
+  
+    header .singin-up {
+      display: none;
+    }
+
+  }

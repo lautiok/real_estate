@@ -1,0 +1,125 @@
+.hero {
+    position: relative; /* Necesario para posicionar correctamente el pseudo-elemento */
+    background-image: url('../../assets/istockphoto-173037127-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.466); /* Color de fondo oscuro con opacidad */
+    background-blend-mode: darken; /* Mezcla el color de fondo con la imagen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    padding: 10rem;
+    padding-bottom: 15rem;
+    width: 66%;
+    margin: 0 auto;
+    bottom: 4rem;
+    border-radius: 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin: 0; 
+    font-family: 'Pacifico', sans-serif;
+    font-weight: 400;
+    line-height: 1; 
+    color: white;
+}
+
+.hero h3 {
+    font-size: 2rem;
+    margin: 0; 
+    font-family: 'Palanquin Dark', sans-serif;
+    line-height: 1;
+    color: white; 
+}
+
+@media screen and (max-width: 1728px) {
+    .hero {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .hero {
+        width: 72%;
+    }
+}
+
+@media screen and (max-width: 1114px) {
+    .hero {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .hero {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .hero {
+        width: 57%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .hero {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        width: 53%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .hero {
+        width: 100px;
+        bottom: 0;
+        padding-bottom: 10rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .hero {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .hero {
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .hero {
+        width: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .hero {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero {
+        width: 10px;
+        padding: 9rem;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero h3 {
+        font-size: 1rem;
+    }
+}
