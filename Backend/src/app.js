@@ -20,7 +20,7 @@ const PORT = config.PORT;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: "https://real-estate-two-zeta-97.vercel.app/",
+    origin: "https://real-estate-two-zeta-97.vercel.app",
     credentials: true
 }));
 app.use(fileupload({
