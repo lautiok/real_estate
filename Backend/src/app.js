@@ -47,6 +47,4 @@ app.listen(PORT, () => {
 
 connectDB();
 
-createAdminUser()
-
 export default app
