@@ -31,7 +31,7 @@ export const HeaderDash = ({ isSidebarOpen, setIsSidebarOpen }) => {
                         <ul>
                             {user.user.role.includes('admin') && <li><Link to='/admin/users'>Usuarios</Link></li>}
                             <li><Link to='/admin/properties'>Propiedades</Link></li>
-                            <li><Link to='/clients'>Clientes</Link></li>
+                            {/* <li><Link to='/clients'>Clientes</Link></li> */}
                             <li><Link to='/admin/owners'>Propietarios</Link></li>
                         </ul>
                         <div className='btns'>
