@@ -13,6 +13,7 @@ import fileupload from "express-fileupload";
 import cookieParser from "cookie-parser";
 import authUserRoutes from "./router/users.routes.js";
 import ownerNewRoutes from "./router/newOwner.routes.js";
+import createAdminUser from "./utils/crearusuarioAdmin.js";
 
 const app = express();
 const PORT = config.PORT;
@@ -45,5 +46,7 @@ app.listen(PORT, () => {
 });
 
 connectDB();
+
+createAdminUser()
 
 export default app
