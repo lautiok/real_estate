@@ -7,7 +7,7 @@ import { checkRole } from "../middlewares/roleMiddlewares.js";
 
 const router = express.Router();
 
-router.post("/register", authMiddleware,  validatorRegister, register)
+router.post("/register",  validatorRegister, register)
 router.post("/login", validatorLogin, login)
 router.post("/verify", validatorToken, TokenValidation )
 router.post("/logout",  logout)
